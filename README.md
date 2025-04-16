@@ -113,6 +113,9 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip
         ```
         Bu komut, ASP.NET Core uygulamanızı derleyecek ve çalıştıracaktır. Uygulama genellikle `http://localhost:5xxx` gibi bir adreste çalışmaya başlayacaktır. Terminaldeki çıktıda uygulamanın hangi adreste çalıştığını görebilirsiniz.
 
+7.  **Admin Paneline Giriş:**
+    * Uygulama başarıyla çalıştıktan sonra, admin paneline erişmek için giriş sayfasında kullanıcı adı olarak **`admin`** ve şifre olarak **`admin123`** bilgilerini kullanabilirsiniz.
+
 ## Katkıda Bulunma (Opsiyonel)
 
 Eğer bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
