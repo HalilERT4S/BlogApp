@@ -1,0 +1,15 @@
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.csproj.AssemblyReference.cache
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.AssemblyInfoInputs.cache
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.AssemblyInfo.cs
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.csproj.CoreCompileInputs.cache
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\bin\Debug\net8.0\BlogApp.Application.deps.json
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\bin\Debug\net8.0\BlogApp.Application.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\bin\Debug\net8.0\BlogApp.Application.pdb
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\bin\Debug\net8.0\BlogApp.Domain.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\bin\Debug\net8.0\BlogApp.Domain.pdb
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp..92E926E3.Up2Date
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\refint\BlogApp.Application.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.pdb
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Application\obj\Debug\net8.0\ref\BlogApp.Application.dll

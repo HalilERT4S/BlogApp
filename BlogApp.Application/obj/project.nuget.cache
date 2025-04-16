@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "hd4BxdgUThq3Lu37HqqCixDmAU5tmME0tJswlDqLdf8LM17gAmd7m8+kuJqf5HyavBf0UftRPqnWb/aKMiAFxw==",
+  "success": true,
+  "projectFilePath": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\BlogApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\halil\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\grpc.core.api\\2.70.0\\grpc.core.api.2.70.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\grpc.net.client\\2.70.0\\grpc.net.client.2.70.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\grpc.net.common\\2.70.0\\grpc.net.common.2.70.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\grpc.tools\\2.71.0\\grpc.tools.2.71.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\openai\\2.1.0\\openai.2.1.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.clientmodel\\1.2.1\\system.clientmodel.1.2.1.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.memory.data\\6.0.0\\system.memory.data.6.0.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

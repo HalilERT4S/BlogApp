@@ -1,0 +1,206 @@
+﻿@model BlogApp.Application.Models.BlogCreateDto
+@{
+    ViewData["Title"] = "Yeni Blog Yazısı Ekle";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="~/manifest.json" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Yeni Blog Yazısı Ekle</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 10px;
+        }
+        .image-container{
+            position: relative;
+            width: 100%;
+            aspect-ratio: 6/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .image-wrapper{
+            position: absolute;
+            max-width: 40%;
+            background-color: rgba(255, 255, 255, 0.764);
+            padding: 1rem;
+            border-radius: 1rem;
+            opacity: 0;
+            transition: all .4s ease;
+        }.image-wrapper-info{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        .category{
+            position: absolute;
+            font-size: 1.6rem;
+            bottom: 0;
+            left: 15rem;
+            transform: translateY(50%);
+            padding: 1rem 3rem;
+            z-index: 10;
+            color: white;
+            background-color: red;
+            border-radius: 10rem;
+            box-shadow: 0 0 0 .5rem white;
+        }
+        .blog-container{
+            padding: 3rem 15rem 1rem;
+        }
+
+        .blog-title{
+            display: block;
+            width: 100%;
+            outline: none;
+            border: none;
+            text-align: center;
+            font-size: 4.2rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .blog-content{
+            display: block;
+            resize: vertical;
+            width: 100%;
+            height: 60rem;
+            border: none;
+            outline: none;
+            padding: 2rem 0 0;
+            font-size: 2.1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-indent: 1rem;
+            line-height: 1.6;
+            text-align:justify;
+        }.blog-content::first-letter{
+            font-size: 3.2rem;
+            font-weight: 600;
+            font-style: italic;
+        }
+        .select-image-container{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        .image-container:hover .image-wrapper{
+            opacity: 1;
+        }
+        .select-image-label{
+            cursor: pointer;
+            font-size: 1.6rem;
+            padding: 1rem 3rem;
+            color: white;
+            background-color: rgb(82, 0, 150);
+            border-radius: 1rem;
+        }
+        .select-image-input{
+            display: none;
+        }
+        .link-container{
+            margin-top:2rem;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }.link-container button{
+            padding: .6rem 3rem;
+            border-radius:1rem;
+            color:white;
+            background-color:green;
+        }.link-container a{
+            font-size:1.6rem;
+        }
+        .text-danger{
+            color:red;
+            font-size:1.8rem;
+        }
+        @@media screen and (max-width:1200px){
+            .blog-container{
+                padding: 3rem 10rem 1rem;
+            }
+            .category{
+                left: 10rem;
+            }
+            html{
+                font-size: 9px;
+            }
+        }
+        @@media screen and (max-width:800px){
+            .blog-container{
+                padding: 3rem 5rem 1rem;
+            }
+            .category{
+                left: 5rem;
+            }
+            html{
+                font-size:8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form asp-action="CreateBlog" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="image-container">
+            <img class="image" src="/images/background.jpg" alt="Blog Resmi">
+            <div class="image-wrapper">
+                <p class="image-wrapper-info">Varsayılan resim bu. İsterseniz değiştirebilirsiniz.</p>
+                <div class="select-image-container">
+                    <label class="select-image-label" for="selectImageBtn">Resim Seç</label>
+                    <input class="select-image-input" type="file" id="selectImageBtn" name="ImageFile" accept="image/*">
+                </div>
+            </div>
+            <select asp-for="CategoryId" class="category" asp-items="@ViewBag.Categories">
+                <option value="">TÜM KATEGORİLER</option>
+            </select>
+        </div>
+        <div class="blog-container">
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+            <input type="text" asp-for="Title" class="blog-title" placeholder="Buraya başlığınızı giriniz"/>
+            <span asp-validation-for="Title" class="text-danger"></span>
+            <textarea asp-for="Content" class="blog-content" placeholder="Buraya içeriğinizi giriniz"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+            <div class="link-container">
+                <button type="submit" class="btn btn-primary d-none">Kaydet</button>
+                <a asp-action="MyBlogs" class="btn btn-secondary d-none">Blog Listesine Geri Dön</a>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const selectImageInput = document.getElementById('selectImageBtn');
+        const imageElement = document.querySelector('.image');
+        const defaultImagePath = "@Url.Content("~/indir.jpg")"; 
+
+        selectImageInput.addEventListener('change', (event) => {
+            const selectedFile = event.target.files[0];
+
+            if (selectedFile) {
+                const reader = new FileReader();
+
+                reader.onload = (e) => {
+                    imageElement.src = e.target.result;
+                }
+
+                reader.readAsDataURL(selectedFile);
+            } else {
+                imageElement.src = defaultImagePath;
+            }
+        });
+    </script>
+</body>
+</html>

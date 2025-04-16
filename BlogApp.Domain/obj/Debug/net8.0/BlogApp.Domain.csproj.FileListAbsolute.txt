@@ -1,0 +1,11 @@
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.deps.json
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\bin\Debug\net8.0\BlogApp.Domain.pdb
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfoInputs.cache
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfo.cs
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.csproj.CoreCompileInputs.cache
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\refint\BlogApp.Domain.dll
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.pdb
+D:\Dogus-Proje\BlogApp.Api\BlogApp.Domain\obj\Debug\net8.0\ref\BlogApp.Domain.dll

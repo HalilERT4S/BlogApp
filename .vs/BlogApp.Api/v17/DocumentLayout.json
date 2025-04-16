@@ -1,0 +1,1057 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dogus-Proje\\BlogApp.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|d:\\dogus-proje\\blogapp.api\\blogapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\blog\\updateblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\blog\\updateblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\blog\\myblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\blog\\myblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\blog\\createblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\blog\\createblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\blog\\bloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\blog\\bloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\blog\\blogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\blog\\blogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\filters\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\filters\\authorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\middlewares\\sessioncheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\middlewares\\sessioncheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\data\\seeddata\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\data\\seeddata\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.infrastructure\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:blogapp.infrastructure\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\enums\\commentprofanitystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\enums\\commentprofanitystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\enums\\blogtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\enums\\blogtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A1363B-46AE-4196-9351-7BB7E6058668}|BlogApp.Domain\\BlogApp.Domain.csproj|solutionrelative:blogapp.domain\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\validators\\categoryupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\validators\\categoryupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\validators\\categorycreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\validators\\categorycreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\models\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\models\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\models\\commentaddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\models\\commentaddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\models\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\models\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\models\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\models\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\models\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\models\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\repositories\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\repositories\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\services\\icategoryvalidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\services\\icategoryvalidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\services\\iblogvalidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\services\\iblogvalidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86766EB7-CD04-4DAA-BBEC-2BB116315D5B}|BlogApp.Web\\BlogApp.Web.csproj|solutionrelative:blogapp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\blogapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\blogapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.application\\interfaces\\services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FC55F6-3161-446D-8B04-B661536DF070}|BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:blogapp.application\\interfaces\\services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\dogus-proje\\blogapp.api\\blogapp.application\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:blogapp.application\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dogus-Proje\\BlogApp.Api\\blogapp.domain\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:blogapp.domain\\interfaces\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13FF7B5D-7205-4A41-BF75-CD139D81E63B}|BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj|solutionrelative:BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 132,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogApp.Web\\appsettings.json",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\appsettings.json",
+              "RelativeToolTip": "BlogApp.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-12T09:38:57.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\ImageService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\ImageService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\ImageService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAACoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:03:55.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "BlogApp.Web\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:02:01.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BlogApp.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAG0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:47:35.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250416011141_Final.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250416011141_Final.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:11:41.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICategoryValidateService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICategoryValidateService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Services\\ICategoryValidateService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICategoryValidateService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Services\\ICategoryValidateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:32:53.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IBlogValidateService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\IBlogValidateService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Services\\IBlogValidateService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\IBlogValidateService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Services\\IBlogValidateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T00:31:12.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateBlog.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\UpdateBlog.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Blog\\UpdateBlog.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\UpdateBlog.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Blog\\UpdateBlog.cshtml",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAOoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T10:48:24.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BlogApp.Web\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:52:59.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoryUpdateDtoValidator.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Validators\\CategoryUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Validators\\CategoryUpdateDtoValidator.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Validators\\CategoryUpdateDtoValidator.cs",
+              "RelativeToolTip": "BlogApp.Application\\Validators\\CategoryUpdateDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:23:57.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CategoryUpdateDto.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CategoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Models\\CategoryUpdateDto.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CategoryUpdateDto.cs",
+              "RelativeToolTip": "BlogApp.Application\\Models\\CategoryUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:20:28.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Models\\CategoryCreateDto.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CategoryCreateDto.cs",
+              "RelativeToolTip": "BlogApp.Application\\Models\\CategoryCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:19:42.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Category\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Category\\CategoryList.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Category\\CategoryList.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Category\\CategoryList.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T13:59:56.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CategoryCreateDtoValidator.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Validators\\CategoryCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Validators\\CategoryCreateDtoValidator.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Validators\\CategoryCreateDtoValidator.cs",
+              "RelativeToolTip": "BlogApp.Application\\Validators\\CategoryCreateDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:38:14.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T20:57:30.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BlogApp.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BlogApp.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-14T14:40:32.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogList.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\BlogList.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Blog\\BlogList.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\BlogList.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Blog\\BlogList.cshtml",
+              "ViewState": "AQIAAGgBAAAAAAAAAAAAAG4BAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T13:09:12.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OpenAIService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\OpenAIService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\OpenAIService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\OpenAIService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\OpenAIService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAwIkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T15:07:55.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\CategoryService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:03:48.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Services\\ICategoryService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:01:50.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwCMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:56:56.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:56:31.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:38:12.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "BlogApp.Web\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:23:43.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:22:43.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SessionCheckMiddleware.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Middlewares\\SessionCheckMiddleware.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Middlewares\\SessionCheckMiddleware.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Middlewares\\SessionCheckMiddleware.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Middlewares\\SessionCheckMiddleware.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:42:52.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250414074028_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414074028_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:40:28.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250414073605_FinalMigration.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414073605_FinalMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:36:05.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250414073049_Final.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414073049_Final.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:30:49.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250414071624_FixAllDynamicSeedData.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414071624_FixAllDynamicSeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:16:24.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250414065830_FixBlogCommentDates.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414065830_FixBlogCommentDates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:58:30.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250414064738_AddRolesTable.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Migrations\\20250414064738_AddRolesTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:47:39.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:17:37.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Entities\\Role.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:14:15.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorizationFilter.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Filters\\AuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Filters\\AuthorizationFilter.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Filters\\AuthorizationFilter.cs",
+              "RelativeToolTip": "BlogApp.Web\\Filters\\AuthorizationFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T05:59:26.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CommentProfanityStatus.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\CommentProfanityStatus.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Enums\\CommentProfanityStatus.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\CommentProfanityStatus.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Enums\\CommentProfanityStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:39:33.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T22:29:48.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataGenerator.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Data\\SeedData\\DataGenerator.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Data\\SeedData\\DataGenerator.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Data\\SeedData\\DataGenerator.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Data\\SeedData\\DataGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:13:43.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:29:03.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICommentService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Services\\ICommentService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\ICommentService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Services\\ICommentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:18:45.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IOpenAIService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Interfaces\\IOpenAIService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Interfaces\\IOpenAIService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Interfaces\\IOpenAIService.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Interfaces\\IOpenAIService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:09:10.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CommentAddModel.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CommentAddModel.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Models\\CommentAddModel.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CommentAddModel.cs",
+              "RelativeToolTip": "BlogApp.Application\\Models\\CommentAddModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:02:22.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CommentModel.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Models\\CommentModel.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\CommentModel.cs",
+              "RelativeToolTip": "BlogApp.Application\\Models\\CommentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:25:08.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BlogModel.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\BlogModel.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Models\\BlogModel.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Models\\BlogModel.cs",
+              "RelativeToolTip": "BlogApp.Application\\Models\\BlogModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:19:29.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BlogApp.Application.csproj",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\BlogApp.Application.csproj",
+              "RelativeDocumentMoniker": "BlogApp.Application\\BlogApp.Application.csproj",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\BlogApp.Application.csproj",
+              "RelativeToolTip": "BlogApp.Application\\BlogApp.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T17:04:43.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\GeminiService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\GeminiService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\GeminiService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:39:01.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Entities\\Comment.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Comment.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:39:56.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Configuration\\AppSettings.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Configuration\\AppSettings.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Configuration\\AppSettings.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Configuration\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:37:47.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Services\\TokenService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Services\\TokenService.cs",
+              "RelativeToolTip": "BlogApp.Web\\Services\\TokenService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwCAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:55:58.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IGeminiService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Interfaces\\IGeminiService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Interfaces\\IGeminiService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Interfaces\\IGeminiService.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Interfaces\\IGeminiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:38:06.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Entities\\Blog.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Entities\\Blog.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Entities\\Blog.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:11:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BlogType.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\BlogType.cs",
+              "RelativeDocumentMoniker": "BlogApp.Domain\\Enums\\BlogType.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Domain\\Enums\\BlogType.cs",
+              "RelativeToolTip": "BlogApp.Domain\\Enums\\BlogType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:13:56.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:55:13.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\CommentService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\CommentService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\CommentService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:53:55.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Repositories\\CommentRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Repositories\\CommentRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:52:28.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Repositories\\ICommentRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\ICommentRepository.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Repositories\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:37:07.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateBlog.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\CreateBlog.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Blog\\CreateBlog.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\CreateBlog.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Blog\\CreateBlog.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAALoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:51:59.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyBlogs.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\MyBlogs.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Blog\\MyBlogs.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\MyBlogs.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Blog\\MyBlogs.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAACwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:23:45.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IBlogRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\IBlogRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Repositories\\IBlogRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Repositories\\IBlogRepository.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Repositories\\IBlogRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:13:56.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "BlogApp.Infrastructure\\Repositories\\BlogRepository.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Infrastructure\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "BlogApp.Infrastructure\\Repositories\\BlogRepository.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAgwE4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:59:09.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogDetails.cshtml",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\BlogDetails.cshtml",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Views\\Blog\\BlogDetails.cshtml",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Views\\Blog\\BlogDetails.cshtml",
+              "RelativeToolTip": "BlogApp.Web\\Views\\Blog\\BlogDetails.cshtml",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAAKkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T14:00:30.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\BlogService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Services\\BlogService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Services\\BlogService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Services\\BlogService.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAQwBUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:19:25.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\IBlogService.cs",
+              "RelativeDocumentMoniker": "BlogApp.Application\\Interfaces\\Services\\IBlogService.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Application\\Interfaces\\Services\\IBlogService.cs",
+              "RelativeToolTip": "BlogApp.Application\\Interfaces\\Services\\IBlogService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:19:14.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "BlogApp.Web\\Program.cs",
+              "ToolTip": "D:\\Dogus-Proje\\BlogApp.Api\\BlogApp.Web\\Program.cs",
+              "RelativeToolTip": "BlogApp.Web\\Program.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAC8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:57:45.125Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+﻿@model BlogDetailDto
+@{
+    ViewData["Title"] = Model.Blog?.Title ?? "Blog Detayı";
+}
+
+@section Styles {
+    <style>
+        .image-container {
+            position: relative;
+            aspect-ratio: 6 / 2;
+            width: 100%;
+            margin-bottom: 1.875rem;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .category {
+            position: absolute;
+            font-size: 1rem;
+            bottom: 0;
+            left: 15rem;
+            transform: translateY(50%);
+            padding: 0.625rem 1.875rem;
+            z-index: 10;
+            color: white;
+            background-color: red;
+            border-radius: 6.25rem;
+            box-shadow: 0 0 0 0.3125rem white;
+        }
+
+        .blog-container {
+            padding: 1.875rem 15rem 0.625rem;
+        }
+
+        .blog-title {
+            text-align: center;
+            font-size: 2.625rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 1.25rem;
+        }
+
+        .blog-information {
+            padding: 1.25rem 0.625rem 0.625rem;
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 0.625rem;
+            margin-bottom: 1.875rem;
+        }
+
+        .blog-author {
+            font-weight: 900;
+        }
+
+        .blog-date {
+            opacity: .6;
+        }
+
+        .blog-content {
+            padding: 1.25rem 0 0;
+            font-size: 1.3125rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-indent: 0.625rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .blog-content::first-letter {
+            font-size: 2rem;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .comment-area {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.625rem;
+            margin-top: 1.875rem;
+        }
+
+        .comment-input {
+            flex: 1;
+            font-size: 1rem;
+            padding: 0.5rem 0.625rem;
+            outline: none;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+        }
+
+        .comment-btn {
+            padding: 0.5rem 0.9375rem;
+            font-size: 0.875rem;
+            background-color: rgb(219, 151, 62);
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 0.25rem;
+            transition: background-color 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        .comment-btn:hover {
+            background-color: rgb(167, 108, 30);
+        }
+
+        .comment-error {
+            font-size: 1rem;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 0.625rem;
+            margin: 0.625rem 0;
+            border: 1px solid #f5c6cb;
+            border-radius: 0.25rem;
+            text-align: center;
+        }
+
+        .comments {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            margin-top: 1.875rem;
+        }
+
+        .comment {
+            display: flex;
+            flex-direction: row;
+            gap: 0.625rem;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 0.9375rem;
+        }
+
+        .comment-user-icon {
+            width: 3.75rem;
+            height: 3.75rem;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            align-self: flex-start;
+        }
+
+        .comment-details {
+            flex: 1;
+            padding-top: 0.3125rem;
+            font-size: 1rem;
+        }
+
+        .comment-info {
+            display: flex;
+            gap: 0.625rem;
+            align-items: baseline;
+            margin-bottom: 0.3125rem;
+        }
+
+        .comment-user-name {
+            font-weight: bold;
+        }
+
+        .comment-date {
+            opacity: .7;
+            font-size: 0.9em;
+        }
+
+        .comment-content {
+            margin-top: 0.3125rem;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        @@media screen and (max-width: 1200px) {
+            .blog-container {
+                padding: 1.875rem 10rem 0.625rem;
+            }
+
+            .category {
+                left: 10rem;
+            }
+        }
+
+        @@media screen and (max-width: 800px) {
+            .blog-container {
+                padding: 1.875rem 2rem 0.625rem;
+            }
+
+            .category {
+                left: 2rem;
+            }
+
+            html {
+                font-size: smaller;
+            }
+        }
+    </style>
+}
+
+@if (Model.Blog != null)
+{
+    <div class="image-container">
+        <img class="image" src="@(!string.IsNullOrEmpty(Model.Blog.ImageUrl) ? Model.Blog.ImageUrl : "/images/background.jpg")" alt="@Model.Blog.Title" />
+        <span class="category">@Model.Blog.CategoryName</span>
+    </div>
+
+    <div class="blog-container">
+        <h1 class="blog-title">@Model.Blog.Title</h1>
+        <div class="blog-information">
+            <span>by <span class="blog-author">@Model.Blog.AuthorName</span></span>
+            <i class="fa-solid fa-minus"></i>
+            <span class="blog-date">@Model.Blog.PublishDate.ToString("dd MMMM yyyy")</span>
+        </div>
+
+        <p class="blog-content">
+            @Html.Raw(Model.Blog.Content)
+        </p>
+
+        <div class="mt-5">
+            @if (Context.Request.Cookies["UserSessionId"] != null)
+            {
+                <form asp-action="AddComment" asp-controller="Blog" method="post" class="comment-area">
+                    <input type="hidden" name="Id" asp-for="Blog.Id" />
+                    <input type="text" name="CommentText" class="comment-input" placeholder="Yorumunuzu yazın...">
+                    <button type="submit" class="comment-btn">Yorum Yap</button>
+                </form>
+            }
+            else
+            {
+                <div class="comment-error">
+                    <i class="fas fa-exclamation-circle"></i> Yorum yapabilmek için <a asp-action="Login" asp-controller="Auth">giriş yapmanız</a> gerekmektedir.
+                </div>
+            }
+        </div>
+
+        <div class="comments">
+            <h3>Yorumlar (@Model.Comments?.Count())</h3>
+            @if (Model.Comments != null && Model.Comments.Any())
+            {
+                @foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedDate))
+                {
+                    <div class="comment">
+                        <img class="comment-user-icon" src="~/images/profile-icon.png" alt="@comment.FullName" />
+                        <div class="comment-details">
+                            <div class="comment-info">
+                                <span class="comment-user-name">@comment.FullName</span>
+                                <span class="comment-date">@comment.CreatedDate.ToString("dd MMMM yyyy")</span>
+                            </div>
+                            @if (comment.ProfanityStatus == BlogApp.Domain.Enums.CommentProfanityStatus.Profane)
+                            {
+                                <div class="comment-toggle">
+                                    <div class="comment-error toggle-warning">
+                                        <i class="fas fa-exclamation-circle"></i> YORUM KÜFÜR İÇERMEKTEDİR GÖRMEK İÇİN ÜZERİNE TIKLAYINIZ
+                                    </div>
+                                    <p class="comment-content toggle-comment" style="display: none;">@comment.Text</p>
+                                </div>
+                            }
+                            else
+                            {
+                                <p class="comment-content">@comment.Text</p>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Bu gönderiye henüz hiç yorum yapılmamış.</p>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-info mt-5 text-center" role="alert">
+        Blog detayı bulunamadı.
+    </div>
+}
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.toggle-warning').forEach(function (el) {
+            el.addEventListener('click', function () {
+                const parent = this.closest('.comment-toggle');
+                const comment = parent.querySelector('.toggle-comment');
+                comment.style.display = 'block';
+                this.style.display = 'none';
+            });
+        });
+    </script>
+}

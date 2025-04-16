@@ -1,0 +1,86 @@
+﻿@model List<BlogModel>
+
+@{
+    ViewData["Title"] = "Bloglarım";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <h1 class="text-center">Bloglarım</h1>
+
+            <p class="text-end">
+                <a asp-action="CreateBlog" class="btn btn-primary">Yeni Blog Ekle</a>
+            </p>
+
+            @if (Model != null && Model.Any())
+            {
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Başlık</th>
+                            <th>Kategori</th>
+                            <th>Yayın Tarihi</th>
+                            <th>Yazar</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@item.CategoryName</td>
+                                <td>@item.PublishDate.ToShortDateString()</td>
+                                <td>@item.AuthorName</td>
+                                <td>
+                                    <a asp-action="UpdateBlog" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger delete-btn" data-blog-id="@item.Id" data-blog-title="@item.Title">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            
+                <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deleteConfirmationModalLabel">Silmeyi Onayla</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="İptal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span id="deleteConfirmationMessage"></span> adlı blog yazısını silmek istediğinize emin misiniz?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                                <a id="confirmDeleteButton" class="btn btn-danger">Onayla</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <p class="text-center">Henüz hiç blog yazınız bulunmamaktadır.</p>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.delete-btn').click(function () {
+                var blogId = $(this).data('blog-id');
+                var blogTitle = $(this).data('blog-title');
+                var deleteUrl = '@Url.Action("DeleteBlog", "Blog")/' + blogId;
+
+                $('#deleteConfirmationMessage').text(blogTitle);
+                $('#confirmDeleteButton').attr('href', deleteUrl);
+                $('#deleteConfirmationModal').modal('show');
+            });
+        });
+    </script>
+}

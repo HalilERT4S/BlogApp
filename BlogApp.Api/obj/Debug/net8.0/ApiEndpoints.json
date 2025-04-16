@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "BlogApp.Web.Controllers.BlogController",
+    "Method": "CreateBlog",
+    "RelativePath": "api/Blog/createBlog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogCreateDto",
+        "Type": "BlogApp.Application.Models.BlogCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlogApp.Application.Models.BlogDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlogApp.Web.Controllers.BlogController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/Blog/deleteBlog",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlogApp.Web.Controllers.BlogController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/Blog/updateBlog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogUpdateDto",
+        "Type": "BlogApp.Application.Models.BlogUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlogApp.Application.Models.BlogDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
